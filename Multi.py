@@ -13,7 +13,7 @@ publish_iteration_name = "Adit123"
 
 predictor = CustomVisionPredictionClient(prediction_key, endpoint=ENDPOINT)
 
-for file in glob.glob("/home/lalit/Desktop/Demo/test/*.jpeg"):
+for file in glob.glob("/home/lalit/Desktop/Demo1/test/*.jpeg"):
         base_image_url = file
         with open(base_image_url, "rb") as image_contents:
             results = predictor.classify_image(

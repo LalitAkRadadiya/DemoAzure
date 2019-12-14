@@ -7,7 +7,7 @@ prediction_key = "da9a862e889848f995acfaf0745bba0b"
 ENDPOINT = "https://southcentralus.api.cognitive.microsoft.com/"
 Project_id = "98196bb6-2a1b-4699-ac46-44a71fa0ae12"
 publish_iteration_name = "Adit123"
-base_image_url = "/home/lalit/Desktop/Demo/test/images.jpeg"
+base_image_url = "/home/lalit/Desktop/Demo1/test/images.jpeg"
 # Now there is a trained endpoint that can be used to make a prediction
 predictor = CustomVisionPredictionClient(prediction_key, endpoint=ENDPOINT)
 
